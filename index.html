@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="output.css" rel="stylesheet" />
+    <link href="nav.css" rel="stylesheet" />
+
+    <title>PortFolio</title>
+  </head>
+  <body>
+    <header class="bg-pink" id="navbar">
+      <div class="container mx-auto items-center flex justify-between">
+        <h1
+          class="p-3 md:p-6 text-xl md:text-5xl lg:font-bold font-medium font-mono"
+        >
+          <a href="#"> Portfolio </a>
+        </h1>
+
+        <button id="toggle" class="md:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </button>
+
+        <nav
+          id="nav"
+          class="fixed top-10 bottom-0 -right-full bg-pink w-52 md:w-auto md:static transition-all"
+        >
+          <ul class="md:flex md:items-center">
+            <li class="text-lg md:text-xl">
+              <a class="block p-3 navlink active mx-2" href="#home">Home</a>
+            </li>
+            <li class="text-lg md:text-xl">
+              <a class="block p-3 navlink mx-2" href="#services">Services</a>
+            </li>
+            <li class="text-lg md:text-xl">
+              <a class="block p-3 navlink mx-2" href="#about">About</a>
+            </li>
+            <li class="text-lg md:text-xl">
+              <a class="block p-3 navlink mx-2" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <script type="text/javascript" src="js/nav.js"></script>
+    </header>
+    <!-- Home -->
+    <main id="home" class="mx-auto w-11/12 md:p-5 py-5">
+      <div
+        class="flex flex-col md:flex-row md:my-14 my-8 items-center justify-around text-lead"
+      >
+        <!-- Left Area -->
+        <div class="md:text-left text-center">
+          <h1 class="md:text-5xl text-3xl font-bold font-serif">
+            Hello, so good to see you!
+          </h1>
+          <p class="my-8 md:text-xl text-md max-w-md font-sans">
+            I help small and medium-sized businesses grow their audience and
+            brand recognition through social media.
+          </p>
+        </div>
+
+        <!-- Right Area -->
+        <img
+          src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=900&q=80"
+          alt="Hero"
+          class="rounded-md md:w-half w-full"
+        />
+      </div>
+    </main>
+    <!-- Feature -->
+    <article class="bg-pink p-1">
+      <div class="md:my-10 my-6">
+        <h1 class="text-center md:text-5xl text-3xl font-bold text-lead">
+          Featured
+        </h1>
+        <div
+          class="flex flex-col md:flex-row items-center justify-around text-light-black mt-10 uppercase"
+        >
+          <h1 class="md:text-3xl text-2xl font-extrabold my-2 md:my-0">
+            Featured
+          </h1>
+          <h1
+            class="md:text-3xl text-2xl font-extrabold my-2 md:my-0 font-serif"
+          >
+            Lanni Haw
+          </h1>
+          <h1 class="md:text-3xl text-2xl font-extrabold my-2 md:my-0">
+            Deon Five
+          </h1>
+          <h1 class="md:text-3xl text-2xl font-extrabold my-2 md:my-0 italic">
+            Knoxe Mus
+          </h1>
+        </div>
+      </div>
+    </article>
+    <!-- Intro -->
+    <section class="md:my-20 my-12 text-center text-lead w-[80%] mx-auto">
+      <h1 class="md:text-5xl text-3xl text-lead uppercase italic">
+        My name is Dovile
+      </h1>
+      <p class="md:mt-10 mt-5 md:text-xl md:w-[90%] mx-auto">
+        I'm your new social media bestie. My mission is to help small and
+        medium-sized businesses grow their audience and brand recognition
+        through social media. To do that, I believe it's paramount to create a
+        committed and genuine community that has a positive influence on
+        people’s lives beyond the online sphere. My goal is to help you
+        understand the power of social media and create connections that go
+        beyond the internet.
+      </p>
+    </section>
+    <!-- Services -->
+    <main class="bg-pink p-1" id="services">
+      <div
+        class="flex flex-col md:flex-row items-center justify-around text-lead mx-auto w-11/12 md:p-5 py-5"
+      >
+        <!-- Left Area -->
+        <div class="md:text-left text-center md:mb-0 mb-5">
+          <h1 class="md:text-6xl text-3xl font-bold font-serif text-lead">
+            Services
+          </h1>
+          <p class="my-8 md:text-xl text-md max-w-lg font-sans">
+            From campaign planning and consultation to content creation and
+            extended social media campaigning, I'm here to help your brand sound
+            like you online.
+          </p>
+          <button
+            class="md:p-4 p-3 text-sm md:text-lg rounded-sm bg-gray-dark hover:bg-lead text-white"
+          >
+            First Consultation is Free
+          </button>
+        </div>
+
+        <!-- Right Area -->
+        <img
+          src="https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=900&q=80"
+          alt="Hero"
+          class="rounded-md md:w-half w-full"
+        />
+      </div>
+    </main>
+    <!-- Details -->
+    <div
+      class="p-1 md:my-20 my-12 text-lead w-[80%] mx-auto text-center md:text-left"
+    >
+      <h1 class="md:text-5xl font-semibold text-2xl text-lead">
+        Social Media Management
+      </h1>
+      <p class="md:mt-10 mt-5 md:text-2xl text-md md:w-[80%] font-serif">
+        Whether you need help with planning the right kinds of campaigns for
+        your social media accounts or need to establish a general social media
+        strategy in the first place, I'll work closely with you to identify how
+        we can scale your social media activities to a whole new level.
+      </p>
+      <!-- Service Details -->
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 p-5 text-left mr-auto md:gap-10 gap-5 items-center justify-around"
+      >
+        <!-- section A -->
+        <div class="text-center md:text-left">
+          <h1 class="md:text-3xl text-2xl font-serif font-bold p-1">Service</h1>
+          <ul class="list-disc md:text-xl text-md">
+            <li>Audit of current social media activities</li>
+            <li>Hashtag and strategy research</li>
+            <li>Developing a personal strategy</li>
+            <li>
+              Content creation (including editing & social media graphics)
+            </li>
+          </ul>
+        </div>
+        <div class="text-center md:text-left">
+          <h1 class="md:text-3xl text-2xl font-serif font-bold p-1">Service</h1>
+          <ul class="list-disc md:text-xl text-md">
+            <li>Audit of current social media activities</li>
+            <li>Hashtag and strategy research</li>
+            <li>Developing a personal strategy</li>
+            <li>
+              Content creation (including editing & social media graphics)
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-red text-center md:text-left">
+          <h1 class="md:text-3xl text-2xl font-serif font-bold p-1">Service</h1>
+          <ul class="list-disc md:text-xl text-md">
+            <li>Audit of current social media activities</li>
+            <li>Hashtag and strategy research</li>
+            <li>Developing a personal strategy</li>
+            <li>
+              Content creation (including editing & social media graphics)
+            </li>
+          </ul>
+        </div>
+        <div class="bg-red text-center md:text-left">
+          <h1 class="md:text-3xl text-2xl font-serif font-bold p-1">Service</h1>
+          <ul class="list-disc md:text-xl text-md">
+            <li>Audit of current social media activities</li>
+            <li>Hashtag and strategy research</li>
+            <li>Developing a personal strategy</li>
+            <li>
+              Content creation (including editing & social media graphics)
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- About -->
+    <main id="about" class="bg-pink p-1" id="services">
+      <div
+        class="flex flex-col-reverse md:flex-row items-center justify-around text-lead mx-auto w-11/12 md:p-5 py-5"
+      >
+        <!-- Left Area -->
+        <img
+          src="https://images.unsplash.com/photo-1484863137850-59afcfe05386?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
+          alt="Hero"
+          class="rounded-md md:w-half w-full"
+        />
+
+        <!-- Right Area -->
+        <div class="md:text-right text-center md:mb-0 mb-5">
+          <h1 class="md:text-6xl text-3xl font-bold font-serif text-lead">
+            So, who am I?
+          </h1>
+          <p class="my-8 md:text-xl text-md max-w-lg font-sans">
+            I'm your new social media bestie. My mission is to help small and
+            medium-sized businesses grow their audience and brand recognition
+            through social media. My goal is to help you understand the power of
+            social media and create connections that go beyond the internet.
+          </p>
+          <a href="#contact">
+          <button
+            class="md:p-4 p-3 text-sm md:text-lg rounded-sm bg-gray-dark hover:bg-lead text-white"
+          >
+            Contact Me 
+          </button>
+        </a>
+        </div>
+      </div>
+    </main>
+    <!-- Intro -->
+    <section class="md:my-20 my-12 text-center text-lead w-[80%] mx-auto">
+      <h1 class="md:text-6xl text-4xl text-lead font-serif italic">
+        Changing the digital world
+      </h1>
+      <p class="md:mt-10 mt-5 md:text-xl md:w-[90%] mx-auto">
+        I believe it's paramount to create a committed and genuine community
+        that has a positive influence on people’s lives beyond the online
+        sphere. With more people online than ever before, the competition for
+        attention is fierce, and you have to work hard to appeal to the masses.
+        That's why it's my goal to help you understand the power of social media
+        and create connections that go beyond the internet.
+      </p>
+    </section>
+    <!-- Reviews -->
+    <section class="bg-white">
+      <div class="container mx-auto px-6 py-16">
+        <div>
+          <h1
+            class="text-3xl font-semibold capitalize text-center text-lead lg:text-4xl"
+          >
+            What our clients are saying
+          </h1>
+
+          <div class="mx-auto mt-6 flex">
+            <span class="inline-block h-1 w-40 rounded-full bg-blue-500"></span>
+            <span
+              class="mx-1 inline-block h-1 w-3 rounded-full bg-blue-500"
+            ></span>
+            <span class="inline-block h-1 w-1 rounded-full bg-blue-500"></span>
+          </div>
+        </div>
+        <div class="mt-0 md:flex md:items-center md:justify-between">
+          <section
+            class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 xl:mt-12 xl:grid-cols-3"
+          >
+            <div class="rounded-lg border md:p-8 p-3">
+              <p class="md:leading-loose leading-normal text-lead">
+                “Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Tempore quibusdam ducimus libero ad tempora doloribus expedita
+                laborum saepe voluptas perferendis delectus assumenda rerum,
+                culpa aperiam dolorum, obcaecati corrupti aspernatur a.”.
+              </p>
+
+              <div class="-mx-2 mt-8 flex items-center">
+                <img
+                  class="mx-2 h-14 w-14 shrink-0 rounded-full object-cover ring-4 ring-pink"
+                  src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                  alt=""
+                />
+
+                <div class="mx-2">
+                  <h1 class="font-semibold text-light-black">Robert</h1>
+                  <span class="text-sm text-black"
+                    >CTO, Robert Consultency</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="rounded-lg border md:p-8 p-3">
+              <p class="md:leading-loose leading-normal text-lead">
+                “Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Tempore quibusdam ducimus libero ad tempora doloribus expedita
+                laborum saepe voluptas perferendis delectus assumenda rerum,
+                culpa aperiam dolorum, obcaecati corrupti aspernatur a.”.
+              </p>
+
+              <div class="-mx-2 mt-8 flex items-center">
+                <img
+                  class="mx-2 h-14 w-14 shrink-0 rounded-full object-cover ring-4 ring-pink"
+                  src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                  alt=""
+                />
+
+                <div class="mx-2">
+                  <h1 class="font-semibold text-light-black">Ema Doe</h1>
+                  <span class="text-sm text-black"
+                    >Marketing Manager at Stech</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="rounded-lg border md:p-8 p-3">
+              <p class="md:leading-loose leading-normal text-lead">
+                “Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Tempore quibusdam ducimus libero ad tempora doloribus expedita
+                laborum saepe voluptas perferendis delectus assumenda rerum,
+                culpa aperiam dolorum, obcaecati corrupti aspernatur a.”.
+              </p>
+
+              <div class="-mx-2 mt-8 flex items-center">
+                <img
+                  class="mx-2 h-14 w-14 shrink-0 rounded-full object-cover ring-4 ring-gray-300 dark:ring-gray-700"
+                  src="https://images.unsplash.com/photo-1488508872907-592763824245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                  alt=""
+                />
+
+                <div class="mx-2">
+                  <h1 class="font-semibold text-light-black">Ema Watson</h1>
+                  <span class="text-sm text-black"
+                    >Marketing Manager at Stech</span
+                  >
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <div id="contact" class="bg-pink py-1">
+      <div class="mb-10 text-lead container md:mt-12 mt-8 px-6 mx-auto">
+        <div class="flex justify-center">
+          <div class="text-center lg:max-w-3xl md:max-w-xl mb-10">
+            <h1
+              class="text-center md:text-5xl pt-5 text-3xl font-bold text-lead"
+            >
+              Contact
+            </h1>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap">
+          <div
+            class="grow-0 shrink-0 basis-auto md:mb-12 mb-6 lg:mb-0 w-full lg:w-5/12 px-3 lg:px-6"
+          >
+            <form>
+              <div class="form-group mb-6">
+                <input
+                  type="text"
+                  class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-pink bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-pink focus:border-blue-600 focus:outline-none"
+                  id="exampleInput7"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="form-group mb-6">
+                <input
+                  type="email"
+                  class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-pink bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-pink focus:border-blue-600 focus:outline-none"
+                  id="exampleInput8"
+                  placeholder="Email address"
+                />
+              </div>
+              <div class="form-group mb-6">
+                <textarea
+                  class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-pink bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                  id="exampleFormControlTextarea13"
+                  rows="3"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                class="w-full px-6 py-2.5 text-pink bg-gray-dark font-medium text-md leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+              >
+                Send
+              </button>
+            </form>
+          </div>
+          <div class="grow-0 shrink-0 basis-auto w-full lg:w-7/12 mt-5 md:mt-0">
+            <div class="flex flex-wrap">
+              <div
+                class="md:mb-12 mb-6 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6"
+              >
+                <div class="flex items-start">
+                  <div class="shrink-0">
+                    <div
+                      class="p-4 text-pink rounded-md shadow-md w-14 h-14 flex items-center justify-center"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="headset"
+                        class="w-5 text-gray-dark"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M192 208c0-17.67-14.33-32-32-32h-16c-35.35 0-64 28.65-64 64v48c0 35.35 28.65 64 64 64h16c17.67 0 32-14.33 32-32V208zm176 144c35.35 0 64-28.65 64-64v-48c0-35.35-28.65-64-64-64h-16c-17.67 0-32 14.33-32 32v112c0 17.67 14.33 32 32 32h16zM256 0C113.18 0 4.58 118.83 0 256v16c0 8.84 7.16 16 16 16h16c8.84 0 16-7.16 16-16v-16c0-114.69 93.31-208 208-208s208 93.31 208 208h-.12c.08 2.43.12 165.72.12 165.72 0 23.35-18.93 42.28-42.28 42.28H320c0-26.51-21.49-48-48-48h-32c-26.51 0-48 21.49-48 48s21.49 48 48 48h181.72c49.86 0 90.28-40.42 90.28-90.28V256C507.42 118.83 398.82 0 256 0z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="grow ml-6 text-lead">
+                    <p class="font-bold mb-1">Technical support</p>
+                    <p class="text-gray">support@example.com</p>
+                    <p class="text-gray">+1 234-567-89</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="md:mb-12 mb-6 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6"
+              >
+                <div class="flex items-start">
+                  <div class="shrink-0">
+                    <div
+                      class="p-4 text-pink rounded-md shadow-md w-14 h-14 flex items-center justify-center"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="dollar-sign"
+                        class="w-3 text-gray-dark"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 288 512"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M209.2 233.4l-108-31.6C88.7 198.2 80 186.5 80 173.5c0-16.3 13.2-29.5 29.5-29.5h66.3c12.2 0 24.2 3.7 34.2 10.5 6.1 4.1 14.3 3.1 19.5-2l34.8-34c7.1-6.9 6.1-18.4-1.8-24.5C238 74.8 207.4 64.1 176 64V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48h-2.5C45.8 64-5.4 118.7.5 183.6c4.2 46.1 39.4 83.6 83.8 96.6l102.5 30c12.5 3.7 21.2 15.3 21.2 28.3 0 16.3-13.2 29.5-29.5 29.5h-66.3C100 368 88 364.3 78 357.5c-6.1-4.1-14.3-3.1-19.5 2l-34.8 34c-7.1 6.9-6.1 18.4 1.8 24.5 24.5 19.2 55.1 29.9 86.5 30v48c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-48.2c46.6-.9 90.3-28.6 105.7-72.7 21.5-61.6-14.6-124.8-72.5-141.7z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="grow ml-6 text-lead">
+                    <p class="font-bold mb-1">Sales questions</p>
+                    <p class="text-gray">sales@example.com</p>
+                    <p class="text-gray">+1 234-567-89</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="md:mb-12 mb-6 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6"
+              >
+                <div class="flex align-start">
+                  <div class="shrink-0">
+                    <div
+                      class="p-4 text-pink rounded-md shadow-md w-14 h-14 flex items-center justify-center"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="newspaper"
+                        class="w-5 text-gray-dark"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 576 512"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M552 64H88c-13.255 0-24 10.745-24 24v8H24c-13.255 0-24 10.745-24 24v272c0 30.928 25.072 56 56 56h472c26.51 0 48-21.49 48-48V88c0-13.255-10.745-24-24-24zM56 400a8 8 0 0 1-8-8V144h16v248a8 8 0 0 1-8 8zm236-16H140c-6.627 0-12-5.373-12-12v-8c0-6.627 5.373-12 12-12h152c6.627 0 12 5.373 12 12v8c0 6.627-5.373 12-12 12zm208 0H348c-6.627 0-12-5.373-12-12v-8c0-6.627 5.373-12 12-12h152c6.627 0 12 5.373 12 12v8c0 6.627-5.373 12-12 12zm-208-96H140c-6.627 0-12-5.373-12-12v-8c0-6.627 5.373-12 12-12h152c6.627 0 12 5.373 12 12v8c0 6.627-5.373 12-12 12zm208 0H348c-6.627 0-12-5.373-12-12v-8c0-6.627 5.373-12 12-12h152c6.627 0 12 5.373 12 12v8c0 6.627-5.373 12-12 12zm0-96H140c-6.627 0-12-5.373-12-12v-40c0-6.627 5.373-12 12-12h360c6.627 0 12 5.373 12 12v40c0 6.627-5.373 12-12 12z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="grow ml-6 text-lead">
+                    <p class="font-bold mb-1">Press</p>
+                    <p class="text-gray">press@example.com</p>
+                    <p class="text-gray">+1 234-567-89</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="md:mb-12 mb-6 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6"
+              >
+                <div class="flex align-start">
+                  <div class="shrink-0">
+                    <div
+                      class="p-4 text-pink rounded-md shadow-md w-14 h-14 flex items-center justify-center"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="bug"
+                        class="w-5 text-gray-dark"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M511.988 288.9c-.478 17.43-15.217 31.1-32.653 31.1H424v16c0 21.864-4.882 42.584-13.6 61.145l60.228 60.228c12.496 12.497 12.496 32.758 0 45.255-12.498 12.497-32.759 12.496-45.256 0l-54.736-54.736C345.886 467.965 314.351 480 280 480V236c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v244c-34.351 0-65.886-12.035-90.636-32.108l-54.736 54.736c-12.498 12.497-32.759 12.496-45.256 0-12.496-12.497-12.496-32.758 0-45.255l60.228-60.228C92.882 378.584 88 357.864 88 336v-16H32.666C15.23 320 .491 306.33.013 288.9-.484 270.816 14.028 256 32 256h56v-58.745l-46.628-46.628c-12.496-12.497-12.496-32.758 0-45.255 12.498-12.497 32.758-12.497 45.256 0L141.255 160h229.489l54.627-54.627c12.498-12.497 32.758-12.497 45.256 0 12.496 12.497 12.496 32.758 0 45.255L424 197.255V256h56c17.972 0 32.484 14.816 31.988 32.9zM257 0c-61.856 0-112 50.144-112 112h224C369 50.144 318.856 0 257 0z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="grow ml-6 text-lead">
+                    <p class="font-bold mb-1">Bug report</p>
+                    <p class="text-gray">bugs@example.com</p>
+                    <p class="text-gray">+1 234-567-89</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script src="./js/btn.js"></script>
+  </body>
+</html>
